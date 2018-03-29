@@ -86,3 +86,23 @@ section a:hover {
 #sectn-goto .col-6 a {
 	color: #4C0B5F;
 }
+
+@media (min-width: 1025px) and (max-width: 1600px) {
+
+	
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+	
+}
+@media (min-width: 576px) and (max-width: 768px) {
+   h1, h2, h3, h4, h5, p, a {
+	padding: 0;
+}
+
+@media (min-width: 200px) and (max-width: 425px) {
+	footer {
+	padding: 1em 2.5em;
+	}
+}
+	
+	
