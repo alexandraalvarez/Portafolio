@@ -1,0 +1,27 @@
+body {
+	background-color: #4C0B5F;
+	color: #F7F8E0;
+}
+
+a {
+	color: #F7F8E0;
+}
+a:hover {
+	color: #FDF069;
+	font-weight: bolder;
+}
+.row {
+	background-color: #F7F8E0;
+	color: #4C0B5F;
+	margin: 3em 0;
+	padding: 2em 0;
+}
+
+.ind-sect-proyect {
+	margin-top: 2em;
+	color: #4C0B5F;
+}
+
+section a:hover {
+	color: #4C0B5F;
+}
