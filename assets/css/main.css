@@ -1,6 +1,12 @@
 body {
 	background-color: #4C0B5F;
 	color: #F7F8E0;
+	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Marmelad', sans-serif;
+}
+
+nav {
+	margin-top: 2em;
 }
 
 a {
@@ -17,6 +23,10 @@ a:hover {
 	padding: 2em 0;
 }
 
+.row-grey {
+	background-color: #D8D8D8;
+}
+
 .ind-sect-proyect {
 	margin-top: 2em;
 	color: #4C0B5F;
@@ -24,4 +34,29 @@ a:hover {
 
 section a:hover {
 	color: #4C0B5F;
+}
+
+.img-sant-valdi {
+	padding: 0;
+}
+
+.row-sant-valdi {
+	background-color: #D8D8D8;
+	margin-top: 1em;
+}
+
+.pict-gallery {
+	background-color: #D8D8D8;
+}
+
+#cv {
+	background-color: #4C0B5F;
+}
+
+#cv h2 {
+	color: #F7F8E0;
+}
+
+#cv img {
+	margin-top: 1em;
 }
