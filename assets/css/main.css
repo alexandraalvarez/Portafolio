@@ -1,6 +1,6 @@
 body {
 	background-color: #4C0B5F;
-	color: #F7F8E0;
+	color: #ECE0F8;
 	font-family: 'Josefin Sans', sans-serif;
 	font-family: 'Marmelad', sans-serif;
 }
@@ -8,10 +8,10 @@ nav {
 	margin-top: 2em;
 }
 a {
-	color: #F7F8E0;
+	color: #D8D8D8;
 }
 a:hover {
-	color: #FDF069;
+	color: #ECE0F8;
 	font-weight: bolder;
 }
 .navbar-brand, h1, h2, h3 {
@@ -22,7 +22,7 @@ footer {
 	padding: 1em 0.5em;
 }
 .row {
-	background-color: #F7F8E0;
+	background-color: #ECE0F8;
 	color: #4C0B5F;
 	padding: 2em 0;
 }
@@ -53,7 +53,7 @@ section a:hover {
 	background-color: #4C0B5F;
 }
 #cv h2 {
-	color: #F7F8E0;
+	color: #D8D8D8;
 }
 #cv img {
 	margin-top: 1em;
