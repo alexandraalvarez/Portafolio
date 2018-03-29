@@ -4,11 +4,9 @@ body {
 	font-family: 'Josefin Sans', sans-serif;
 	font-family: 'Marmelad', sans-serif;
 }
-
 nav {
 	margin-top: 2em;
 }
-
 a {
 	color: #F7F8E0;
 }
@@ -16,47 +14,75 @@ a:hover {
 	color: #FDF069;
 	font-weight: bolder;
 }
+.navbar-brand, h1, h2, h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 1em 0;
+}
+footer {
+	padding: 1em 0.5em;
+}
 .row {
 	background-color: #F7F8E0;
 	color: #4C0B5F;
-	margin: 3em 0;
 	padding: 2em 0;
 }
-
 .row-grey {
 	background-color: #D8D8D8;
 }
-
+.row-sin-marg {
+	margin: 0;
+	padding: 1em 0;
+}
+#sectn-porf .row {
+	margin: 3em;
+}
 .ind-sect-proyect {
-	margin-top: 2em;
 	color: #4C0B5F;
 }
-
 section a:hover {
 	color: #4C0B5F;
 }
-
 .img-sant-valdi {
 	padding: 0;
 }
-
 .row-sant-valdi {
 	background-color: #D8D8D8;
 	margin-top: 1em;
 }
-
-.pict-gallery {
-	background-color: #D8D8D8;
-}
-
 #cv {
 	background-color: #4C0B5F;
 }
-
 #cv h2 {
 	color: #F7F8E0;
 }
-
 #cv img {
 	margin-top: 1em;
+}
+#sectn-portf-img-xl .row-sin-marg {
+	background-color: #4C0B5F;
+	padding: 0;
+	margin: 0;
+}
+#sectn-portf-img-xl .col {
+	padding: 0;
+} 
+#sectn-portf-img-xl .img-width {
+	padding: 0;
+}
+.img-portf {
+	padding: 1em 0;
+}
+#sectn-my-rol .row {
+	padding: 0;
+	margin: 0;
+}
+#sectn-bench-page .col-6 {
+	padding: 0;
+} 
+#sectn-goto .col-6 {
+	padding: 2em 0;
+	background-color: #D8D8D8;
+}
+#sectn-goto .col-6 a {
+	color: #4C0B5F;
 }
