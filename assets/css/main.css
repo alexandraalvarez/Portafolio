@@ -72,13 +72,16 @@ section a:hover {
 .img-portf {
 	padding: 1em 0;
 }
-#sectn-my-rol .row {
+/*#sectn-my-rol .row {
 	padding: 0;
 	margin: 0;
-}
+}*/
 #sectn-bench-page .col-6 {
 	padding: 0;
 } 
+#sectn-test .col {
+	padding: 0;
+}
 #sectn-goto .col-6 {
 	padding: 2em 0;
 	background-color: #D8D8D8;
@@ -88,20 +91,31 @@ section a:hover {
 }
 
 @media (min-width: 1025px) and (max-width: 1600px) {
-
-	
+	.offset-md-1 {
+		margin-left: 0;
+	}
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-	
+	.offset-md-1 {
+		margin-left: 0;
+	}
 }
+
 @media (min-width: 576px) and (max-width: 768px) {
    h1, h2, h3, h4, h5, p, a {
-	padding: 0;
+	padding: 0.5em;
 	}
 }
 @media (min-width: 200px) and (max-width: 425px) {
 	footer li {
-	padding: 0.5 1.5em;
+	padding: 0.5em 1.5em;
+	}
+	h1, h2, h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 0.5em;
+	}
+	.ind-sect-proyect {
+		padding: 0.5em 0;	
 	}
 }
 	
