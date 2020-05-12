@@ -1,33 +1,43 @@
+/*40317e (índigo) #a699d8 (índigo light) #d8a699 (rosa light) #99D8A6 (verde light) #ddd9f0 (base fondo claro) #16112b (color fuente)*/
 body {
-	background-color: #4C0B5F;
-	color: #ECE0F8;
-	font-family: 'Josefin Sans', sans-serif;
-	font-family: 'Marmelad', sans-serif;
+	background-color: #281f4f;
+	color: #FFFFFF;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Poppins', sans-serif;
 }
 nav {
-	margin-top: 2em;
+	margin-top: 1em;
 }
 a {
-	color: #D8D8D8;
+	color: #D8D8D8;	
+}
+section a {
+	color: #16112b;
 }
 a:hover {
 	color: #ECE0F8;
 	font-weight: bolder;
 }
+a
 .navbar-brand, h1, h2, h3 {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	padding: 1em 0;
 }
 footer {
 	padding: 1em 0.5em;
 }
+section {
+	background-color: #40317e;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
 .row {
-	background-color: #ECE0F8;
-	color: #4C0B5F;
+	background-color: #ddd9f0;
+	color: #16112b;
 	padding: 2em 0;
 }
 .row-grey {
-	background-color: #D8D8D8;
+	background-color: #ddd9f0;
 }
 .row-sin-marg {
 	margin: 0;
@@ -37,16 +47,19 @@ footer {
 	margin: 3em;
 }
 .ind-sect-proyect {
-	color: #4C0B5F;
+	color: ##16112b;
 }
 section a:hover {
-	color: #4C0B5F;
+	color: #16112b;
+}
+#sect-sant-valdi {
+	background-color: #ddd9f0;
 }
 .img-sant-valdi {
 	padding: 0;
 }
 .row-sant-valdi {
-	background-color: #D8D8D8;
+	background-color: #ddd9f0;
 	margin-top: 1em;
 }
 #cv {
@@ -76,6 +89,15 @@ section a:hover {
 	padding: 0;
 	margin: 0;
 }*/
+#sect-sobre-mi, #sect-sobre-mi .row {
+	background-color: #40317e;
+	color: #FFFFFF;
+	padding-bottom: 2em;
+}	
+#sect-recomen {
+	background-color: #ddd9f0;
+	padding-bottom: 2em;
+}
 #sectn-bench-page .col-6 {
 	padding: 0;
 } 
@@ -84,12 +106,12 @@ section a:hover {
 }
 #sectn-goto .col-6 {
 	padding: 2em 0;
-	background-color: #D8D8D8;
+	background-color: #40317e;
 }
 #sectn-goto .col-6 a {
-	color: #4C0B5F;
+	color: #FFFFFF;
 }
-
+/*--------------------------media queries----------------------*/
 @media (min-width: 1025px) and (max-width: 1600px) {
 	.offset-md-1 {
 		margin-left: 0;
@@ -111,7 +133,7 @@ section a:hover {
 	padding: 0.5em 1.5em;
 	}
 	h1, h2, h3 {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	padding: 0.5em;
 	}
 	.ind-sect-proyect {
